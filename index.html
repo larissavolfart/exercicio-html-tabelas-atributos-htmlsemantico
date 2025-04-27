@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício HTML - tabelas, atributos e HTML semântico</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#Produtos">Produtos</a>
+            <a href="#Serviços">Serviços</a>
+            <a href="#Contate-nos">Contate-nos</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Lista de Produtos</h1> <br>
+            <p id="Produtos" style="margin-left: 70px;">Produtos</p>
+            <table>   
+                <thead>
+                    <th>Nome</th>
+                    <th>Quantidade</th>
+                    <th>Preço</th>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Capinha</td>
+                        <td>2</td>
+                        <td>R$300,00</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Fone</td>
+                        <td>1</td>
+                        <td>R$150,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Relógio</td>
+                        <td>1</td>
+                        <td>R$500,00</td>
+                    </tr>
+
+                    <tfoot>
+                        <tr>
+                            <td colspan="2"><b>Total</b></td>
+                            <td><b>R$950,00</b></td>
+                        </tr>
+                    </tfoot>
+                </tbody>    
+            </table>
+        </section>
+
+        <hr>
+
+        <section>
+            <h1>Informações Adicionais</h1>
+            <p>Todos nossos produtos tem garantia de 1 ano.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h1>Mais conteúdos</h1>
+            <p>Você pode adicionais mais seções aqui conforme necessário.</p>
+        </section>
+
+        <hr>
+
+        <aside>
+            <h1>Ofertas</h1>
+            <p>Aqui você encontra nossas melhores ofertas.</p>
+        </aside>
+
+        <hr>
+
+        <footer>
+            <p>&copy; 2025 Sua Empresa. Todos os direitos reservados. </p>
+        </footer>
+    </main>
+
+</body>
+</html>
